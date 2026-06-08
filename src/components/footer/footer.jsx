@@ -14,12 +14,16 @@ const Footer = () => {
             <h1><span className='text-white text-2xl md:text-4xl font-bold'>Code</span> <span className='text-cyan-700 text-2xl md:text-4xl font-bold'>witharomal</span></h1>
             <h1 className='text-gray-500 font-medium md:font-normal'>Practical programming education for developers who build things that actually ship.</h1>
 
-            <div className="flex gap-2 mt-2 md:gap-5">
+             <div className="flex gap-2 mt-2 md:gap-5">
               <FaInstagram className='text-gray-500 text-2xl md:text-4xl font-bold' />
               <CiLinkedin className='text-gray-500 text-2xl md:text-4xl font-bold'/>
               <FaGithub className='text-gray-500 text-2xl md:text-4xl font-bold'/>
-             </div>
-            </div>
+             </div> 
+
+          </div>
+
+
+
 
         <div className='flex flex-col gap-10 md:flex-row md:gap-48 text-gray-500 mt-5'>
             <ul className='flex flex-col gap-2 md:gap-5 font-medium md:font-normal'>

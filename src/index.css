@@ -1,14 +1,32 @@
 @import "tailwindcss";
 
-/* 
-@theme {
-  --color--border: hsl(var(--border));
-  --color--background: hsl(var(--background));
-  --color--foreground: hsl(var(--foreground));
+@keyframes border-spin {
+  from {
+    transform: rotate(0deg);
+  }
 
-  --color--primary: hsl(var(--primary));
-  --color--primary-foreground: hsl(var(--primary-foreground));
+  to {
+    transform: rotate(360deg);
+  }
+}
 
-  --color--card: hsl(var(--card));
-  --color--primary: hsl(var(--primary));
-} */
+.card-wrapper {
+  @apply relative overflow-hidden rounded-2xl;
+}
+
+.card-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: -50%;
+  background: conic-gradient(
+    rgba(59,130,246,.8),
+    rgba(168,85,247,.8),
+    transparent 30%
+  );
+  animation: border-spin 6s linear infinite;
+}
+
+.card-content {
+  @apply absolute inset-[2px] rounded-2xl bg-slate-950;
+  z-index: 1;
+}
