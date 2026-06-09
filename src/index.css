@@ -30,3 +30,10 @@
   @apply absolute inset-[2px] rounded-2xl bg-slate-950;
   z-index: 1;
 }
+
+body {
+  background-image: url("https://i.pinimg.com/736x/a7/a5/77/a7a577becc087261dc87e25562f3080e.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

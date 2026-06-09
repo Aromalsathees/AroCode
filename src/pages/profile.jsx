@@ -11,7 +11,7 @@ const Profile = () => {
               </div>
               
               <div className="flex flex-col justify-start md:gap-2">
-                    <h1 className='text-blue-500 md:mt-5 font-semibold'>ABOUT</h1>
+                    <h1 className='text-blue-500 md:mt-5 font-bold'>ABOUT</h1>
                     <h1 className='flex gap-1 font-sans font-bold md:text-5xl mt-5'>
                       <span className="block text-white">Hey, I'm </span>
                       <span className="block text-blue-500"> aromal .</span>
@@ -20,7 +20,7 @@ const Profile = () => {
                        <p>I'm a Senior Software Engineer who genuinely can't stop learning — new frameworks, new tools, new ways of thinking about problems</p>
                        <p>That's why I built CodeWithJoe — real skills, real code, taught by someone actively in the trenches every day.</p>
                     </div>
-                    <div className="flex items-center gap-2 bg-blue-950 w-fit px-2 py-2 rounded-lg cursor-pointer mt-2 ">
+                    <div className="flex items-center gap-2 bg-blue-950 w-fit px-2 py-2 rounded-lg cursor-pointer mt-8 ">
                        <button>More about me</button>
                         <FaArrowRight />
                     </div>

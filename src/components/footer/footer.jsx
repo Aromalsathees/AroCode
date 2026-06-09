@@ -54,7 +54,7 @@ const Footer = () => {
              </div>
              <div className='flex gap-5 mt-10 md:mt-15 font-medium md:font-normal'>
                 <input className='border rounded-xl border-gray-900 w-3xl h-10 px-3' type="text" placeholder='your@email.com' />
-                <button className='bg-blue-900 w-fit px-2 py-2 rounded-xl '>subscribe</button>
+                <button className='bg-blue-950 w-fit px-2 py-2 rounded-xl '>subscribe</button>
              </div>
         </div>
 

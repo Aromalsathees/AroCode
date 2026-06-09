@@ -44,13 +44,13 @@ const Skills = () => {
     <AiFillAndroid className="text-4xl text-blue-500 my-6" />
 
     <div className='flex flex-col gap-4 md:gap-2'>
-      <h1 className='text-white text-2xl md:text-xl font-semibold'>
+      <h1 className='text-white text-xl font-semibold'>
         Web Development
       </h1>
 
-      <h1 className='text-gray-500'>
+      <p className='text-gray-500'>
         From HTML basics to full-stack apps.React, Next, Node
-      </h1>
+      </p>
     </div>
 
     <div className='flex gap-2 text-blue-500 mt-2'>
@@ -76,13 +76,13 @@ const Skills = () => {
     <LuBrain className="text-4xl text-violet-500 my-6" />
 
     <div className='flex flex-col gap-4 md:gap-2'>
-      <h1 className='text-white text-2xl md:text-xl font-semibold'>
-        AI & Machine Learning
+      <h1 className='text-white text-xl font-semibold'>
+        AI & ML
       </h1>
 
-      <h1 className='text-gray-500 font-medium md:font-normal'>
+      <p className='text-gray-500 font-medium md:font-normal'>
         Learn AI, Machine Learning and modern tools.
-      </h1>
+      </p>
     </div>
 
     <div className='flex gap-2 text-blue-500 font-medium md:text-normal mt-2'>
@@ -107,13 +107,13 @@ const Skills = () => {
     <SiDjango className="text-4xl text-green-400 my-6" />
 
     <div className='flex flex-col gap-4 md:gap-2'>
-      <h1 className='text-white text-2xl md:text-xl font-semibold'>
+      <h1 className='text-white text-xl font-semibold'>
         Django Development
       </h1>
 
-      <h1 className='text-gray-500 font-medium md:font-normal'>
+      <p className='text-gray-500 font-medium md:font-normal'>
         Build scalable backend applications with Django.
-      </h1>
+      </p>
     </div>
 
     <div className='flex gap-2 text-blue-500 font-medium md:text-normal mt-2'>
@@ -138,13 +138,13 @@ const Skills = () => {
     <SiFastapi className="text-4xl text-orange-500 my-6" />
 
     <div className="flex flex-col gap-4 md:gap-2">
-      <h1 className="text-white text-2xl md:text-xl font-semibold">
+      <h1 className="text-white text-xl font-semibold">
         FastAPI Development
       </h1>
 
-      <h1 className="text-gray-500 font-medium md:font-normal">
+      <p className="text-gray-500 font-medium md:font-normal">
         Build high-performance APIs using FastAPI and Python.
-      </h1>
+      </p>
     </div>
 
     <div className="flex gap-2 text-blue-500 font-medium md:text-normal mt-2">
