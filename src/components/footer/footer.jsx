@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-slate-950 p-6 lg:p-20  border border-gray-900 pt-10">
+    <footer id="contact" className="w-full bg-slate-950 p-6 lg:p-20  border border-gray-900 pt-10">
       
       <div className="md:flex justify-between mx-auto ">
 
@@ -59,7 +59,7 @@ const Footer = () => {
         </div>
 
         <div className="flex justify-between border-t border-gray-900 shadow-lg text-gray-500 font-medium md:font-normal mt-10 md:pt-10">
-              <h1>© 2026 AroCode. All rights reserved.</h1>
+              <h1 className="italic">© 2026 AroCode. All rights reserved.</h1>
               <h1 className=" italic">Built for builders.</h1>
         </div>
 

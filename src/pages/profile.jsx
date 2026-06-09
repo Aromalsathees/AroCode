@@ -11,10 +11,10 @@ const Profile = () => {
               </div>
               
               <div className="flex flex-col justify-start md:gap-2">
-                    <h1 className='text-blue-500 md:mt-5 font-bold'>ABOUT</h1>
-                    <h1 className='flex gap-1 font-sans font-bold md:text-5xl mt-5'>
+                    <h1 className='text-blue-950 md:mt-5 font-extrabold'>ABOUT</h1>
+                    <h1 className='flex gap-1 font-sans font-bold md:text-5xl mt-5 italic'>
                       <span className="block text-white">Hey, I'm </span>
-                      <span className="block text-blue-500"> aromal .</span>
+                      <span className="block text-blue-950"> aromal .</span>
                     </h1>
                     <div className="flex flex-col gap-3 mt-5 text-gray-500">
                        <p>I'm a Senior Software Engineer who genuinely can't stop learning — new frameworks, new tools, new ways of thinking about problems</p>

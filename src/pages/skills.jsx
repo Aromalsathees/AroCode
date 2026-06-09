@@ -10,11 +10,11 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Skills = () => {
   return (
-    <div className="w-full min-h-screen bg-black pt-20 px-4 py-20 md:p-20">
+    <div id="skills" className="w-full min-h-screen bg-black pt-20 px-4 py-20 md:p-20">
       <div className="mx-auto">
 
         <div className='flex flex-col justify-center text-center font-bold'>
-          <h1 className='text-blue-500 text-xl font-bold'>
+          <h1 className='text-blue-950 text-xl font-bold'>
             WHAT WE OFFER
           </h1>
 
@@ -22,7 +22,7 @@ const Skills = () => {
             <span className='text-white'>
               Everything you need to level up
             </span>
-            <span className='text-blue-500'>
+            <span className='text-blue-950'>
               skills
             </span>
           </h1>
