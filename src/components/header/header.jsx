@@ -1,28 +1,61 @@
-import React from "react";
+import React, { useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
+    <nav className="w-full p-6 absolute top-0 left-0  z-50 bg-transparent ">
+      <div className=" max-w-7xl mx-auto text-white">
 
-    <nav className="w-full bg-slate-950 p-6">
-        <div className="max-w-7xl mx-auto text-white md:text-2xl">
+        {/* Top Bar */}
+        <div className="flex justify-between items-center">
 
-              <ul className="flex flex-col sm:flex-col md:flex-row gap-10 justify-around md:font-light">
-                <h1 className="md:text-4xl">
-                <span className=" text-white">code</span>
-                <span className="text-cyan-700">witharomal</span>
-                </h1>
+          <h1 className="text-2xl md:text-4xl font-bold">
+            <span className="text-white">code</span>
+            <span className="text-blue-300">witharomal</span>
+          </h1>
 
-                 <li className="hover:bg-gray-500 rounded-2xl p-3">Home</li>
-                 <li className="hover:bg-gray-500 rounded-2xl p-3">about</li>
-                 <li className="hover:bg-gray-500 rounded-2xl p-3">Home</li>
-                 <li className="hover:bg-gray-500 rounded-2xl p-3">Home</li>
+          {/* Burger Icon */}
+          <button
+            className="md:hidden text-2xl"
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
+            {menuOpen ? <FaTimes /> : <FaBars />}
+          </button>
 
-                 <input className="rounded-4xl border-2 p-2 w-full" type="text" placeholder="enter text"/>
-                 
-              </ul>
+          {/* Desktop Menu */}
+          <ul className="hidden md:flex gap-10 items-center font-light text-xl">
+            <li className="hover:bg-gray-500 rounded-2xl p-3">Home</li>
+            <li className="hover:bg-gray-500 rounded-2xl p-3">About</li>
+            <li className="hover:bg-gray-500 rounded-2xl p-3">Courses</li>
+            <li className="hover:bg-gray-500 rounded-2xl p-3">Contact</li>
+
+            <input
+              className="rounded-full border-2 p-2 px-4"
+              type="text"
+              placeholder="Enter text"
+            />
+          </ul>
         </div>
+
+        {/* Mobile Menu */}
+        {menuOpen && (
+          <ul className="flex flex-col gap-4 mt-6 md:hidden ">
+            <li className="hover:bg-gray-500 rounded-2xl p-3">Home</li>
+            <li className="hover:bg-gray-500 rounded-2xl p-3">About</li>
+            <li className="hover:bg-gray-500 rounded-2xl p-3">Courses</li>
+            <li className="hover:bg-gray-500 rounded-2xl p-3">Contact</li>
+
+            <input
+              className="rounded-full border-2 p-2 px-4 w-full"
+              type="text"
+              placeholder="Enter text"
+            />
+          </ul>
+        )}
+      </div>
     </nav>
-    
   );
 };
 

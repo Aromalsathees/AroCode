@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-slate-950 p-6 lg:p-20  border border-gray-900">
+    <footer className="w-full bg-slate-950 p-6 lg:p-20  border border-gray-900 pt-10">
       
       <div className="md:flex justify-between mx-auto ">
 
@@ -27,19 +27,19 @@ const Footer = () => {
 
         <div className='flex flex-col gap-10 md:flex-row md:gap-48 text-gray-500 mt-5'>
             <ul className='flex flex-col gap-2 md:gap-5 font-medium md:font-normal'>
-                <li className='text-white font-semibold text-sm' >QUICK LINKS</li>
+                <li className='text-white font-bold text-sm font-sans' >QUICK LINKS</li>
                 <li>Blog</li>
                 <li>Roadmaps</li>
                 <li>Community</li>
             </ul>
             <ul className='flex flex-col gap-2 md:gap-5 font-medium md:font-normal'>
-                <li className='text-white font-semibold text-sm'>QUICK LINKS</li>
+                <li className='text-white font-bold text-sm font-sans'>QUICK LINKS</li>
                 <li>Blog</li>
                 <li>Roadmaps</li>
                 <li>Community</li>
             </ul>
             <ul className='flex flex-col gap-2 md:gap-5 font-medium md:font-normal'>
-                <li className='text-white font-semibold text-sm'>QUICK LINKS</li>
+                <li className='text-white font-bold text-sm font-sans'>QUICK LINKS</li>
                 <li>Blog</li>
                 <li>Roadmaps</li>
                 <li>Community</li>
@@ -49,12 +49,12 @@ const Footer = () => {
      
         <div className="flex flex-col md:flex-row md:justify-between border-t border-gray-900  shadow-lg text-white mt-10 ">
             <div className="flex flex-col gap-2 mt-5">
-             <h1 className='font-semibold text-sm mt-5'>stay in the loop</h1>
+             <h1 className='font-bold text-xl mt-5 font-sans'>stay in the loop</h1>
              <h1 className='text-gray-500 font-medium md:font-normal '>Dev tips, new courses, and tools — straight to your inbox.</h1>
              </div>
              <div className='flex gap-5 mt-10 md:mt-15 font-medium md:font-normal'>
                 <input className='border rounded-xl border-gray-900 w-3xl h-10 px-3' type="text" placeholder='your@email.com' />
-                <button className='bg-blue-900 md:p-2 p-1 rounded-xl '>subscribe</button>
+                <button className='bg-blue-900 w-fit px-2 py-2 rounded-xl '>subscribe</button>
              </div>
         </div>
 
