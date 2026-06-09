@@ -14,11 +14,11 @@ const Skills = () => {
       <div className="mx-auto">
 
         <div className='flex flex-col justify-center text-center font-bold'>
-          <h1 className='text-blue-500 text-2xl md:text-xl font-semibold'>
+          <h1 className='text-blue-500 text-xl font-bold'>
             WHAT WE OFFER
           </h1>
 
-          <h1 className='flex flex-col md:flex-row justify-center items-center text-2xl md:text-4xl font-bold gap-2'>
+          <h1 className='flex flex-col md:flex-row justify-center items-center text-xl md:text-4xl font-bold gap-2'>
             <span className='text-white'>
               Everything you need to level up
             </span>

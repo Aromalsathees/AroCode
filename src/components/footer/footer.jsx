@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="md:flex justify-between mx-auto ">
 
          <div className='flex flex-col gap-7 font-medium md:font-normal'>
-            <h1><span className='text-white text-2xl md:text-4xl font-bold'>Code</span> <span className='text-cyan-700 text-2xl md:text-4xl font-bold'>witharomal</span></h1>
+            <h1><span className='text-white text-2xl md:text-4xl font-bold italic'>Aro</span><span className='text-cyan-700 text-2xl md:text-4xl font-bold italic'>Code</span></h1>
             <h1 className='text-gray-500 font-medium md:font-normal'>Practical programming education for developers who build things that actually ship.</h1>
 
              <div className="flex gap-2 mt-2 md:gap-5">
@@ -59,7 +59,7 @@ const Footer = () => {
         </div>
 
         <div className="flex justify-between border-t border-gray-900 shadow-lg text-gray-500 font-medium md:font-normal mt-10 md:pt-10">
-              <h1>© 2026 CodeWitharomal. All rights reserved.</h1>
+              <h1>© 2026 AroCode. All rights reserved.</h1>
               <h1 className=" italic">Built for builders.</h1>
         </div>
 
