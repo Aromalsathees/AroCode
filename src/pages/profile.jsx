@@ -7,12 +7,12 @@ const Profile = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div id="about" className="w-full min-h-screen bg-slate-950">
+    <div id="about" className="w-full min-h-screen bg-slate-950 md:pt-20">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-center items-center md:gap-10 gap-7 text-white pt-20 px-4">
 
         <div>
           <img
-            className="w-full max-w-md rounded-2xl"
+            className="w-full md:h-72 max-w-md rounded-2xl"
             src={profileImage}
             alt="Aromal Satheesh"
           />

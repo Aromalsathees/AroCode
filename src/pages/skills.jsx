@@ -11,7 +11,7 @@ const skills = [
   {
     title: "Backend Development",
     description:
-      "Building scalable web applications using Python, Django, Flask, and FastAPI.",
+      "Building scalable web applications using Django, Flask, and FastAPI.",
     tech: "Python • python",
     icon: <FaPython className="text-2xl md:text-4xl text-yellow-200 my-6" />,
     span: "md:col-span-2",
@@ -19,7 +19,7 @@ const skills = [
   {
     title: "REST API Development",
     description:
-      "Creating secure and efficient APIs with Django REST Framework, FastAPI, and PostgreSQL.",
+      "Creating secure and efficient APIs with Django REST Framework, FastAPI, and Flask.",
     tech: "DRF • Django",
     icon: <SiDjango className="text-2xl md:text-4xl text-green-500 my-6" />,
     
@@ -28,7 +28,7 @@ const skills = [
   {
     title: "Full-Stack Development",
     description:
-      "Developing responsive applications using React.js, JavaScript, Django, and REST APIs.",
+      "Developing responsive applications using React.js, Django, Tailwind and REST APIs.",
     tech: "React • Django",
     icon: <LuBrain className="text-2xl md:text-4xl text-violet-500 my-6" />,
   },
