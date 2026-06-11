@@ -9,7 +9,7 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full p-6 absolute top-0 left-0 z-50 bg-transparent">
+    <nav className="w-full fixed  p-6 top-0 left-0 z-50 bg-transparent">
       <div className="max-w-7xl mx-auto text-white">
 
         {/* Top Bar */}
@@ -71,22 +71,22 @@ const Header = () => {
         {menuOpen && (
           <ul className="flex flex-col gap-4 mt-6 md:hidden backdrop-blur-sm p-4 rounded-2xl">
 
-            <li className="hover:bg-gray-700 rounded-2xl p-3 cursor-pointer transition-all duration-300 flex items-center gap-3">
+            <li className="hover:bg-gray-500 rounded-2xl p-3 cursor-pointer transition-all duration-300 flex items-center gap-3">
               <FaHome />
              <a href="#home">Home</a>
             </li>
 
-            <li className="hover:bg-gray-700 rounded-2xl p-3 cursor-pointer transition-all duration-300 flex items-center gap-3">
+            <li className="hover:bg-gray-500 rounded-2xl p-3 cursor-pointer transition-all duration-300 flex items-center gap-3">
               <GiEgyptianProfile />
-              <Link to="#about">About</Link>
+              <a href="#about">About</a>
             </li>
 
-            <li className="hover:bg-gray-700 rounded-2xl p-3 cursor-pointer transition-all duration-300 flex items-center gap-3">
+            <li className="hover:bg-gray-500 rounded-2xl p-3 cursor-pointer transition-all duration-300 flex items-center gap-3">
               <GiSkills />
               <a href="#skills">Skills</a>
             </li>
 
-            <li className="hover:bg-gray-700 rounded-2xl p-3 cursor-pointer transition-all duration-300 flex items-center gap-3">
+            <li className="hover:bg-gray-500 rounded-2xl p-3 cursor-pointer transition-all duration-300 flex items-center gap-3">
               <MdOutlineConnectWithoutContact />
               <a href="#contact">Contact</a>
             </li>
@@ -96,10 +96,10 @@ const Header = () => {
                 <input
                   type="text"
                   placeholder="Search..."
-                  className="w-full rounded-full border border-gray-500 bg-transparent py-2 pl-4 pr-10 outline-none"
+                  className="w-full rounded-full border border-gray-500 bg-transparent py-2 pl-4 pr-10 outline-none "
                 />
 
-                <CiSearch className="absolute right-3 top-1/2 -translate-y-1/2 text-xl text-gray-400" />
+                <CiSearch className="absolute right-3 top-1/2 -translate-y-1/2 text-xl text-white" />
               </div>
             </li>
 

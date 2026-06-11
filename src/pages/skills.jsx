@@ -59,13 +59,13 @@ const Skills = () => {
           </h1>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-10 p-2">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-10 p-2 ">
           {skills.map((skill, index) => (
             <div
               key={index}
               className={`card-wrapper h-80 cursor-pointer ${skill.span || ""}`}
             >
-              <div className="card-content h-full p-6 md:p-10 flex flex-col">
+              <div className="card-content h-full p-6 md:p-10 flex flex-col ">
                 {/* Top */}
                 <div className="flex justify-between text-gray-500">
                   <h1 className="text-sm">SKILL</h1>

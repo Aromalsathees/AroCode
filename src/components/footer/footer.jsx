@@ -3,6 +3,7 @@
 import { FaInstagram } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
+import { FaAngleRight } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -15,34 +16,59 @@ const Footer = () => {
             <h1 className='text-gray-500 font-medium md:font-normal'>Practical programming education for developers who build things that actually ship.</h1>
 
              <div className="flex gap-2 mt-2 md:gap-5">
-              <FaInstagram className='text-gray-500 text-2xl md:text-4xl font-bold' />
-              <CiLinkedin className='text-gray-500 text-2xl md:text-4xl font-bold'/>
-              <FaGithub className='text-gray-500 text-2xl md:text-4xl font-bold'/>
+              <a href="https://www.instagram.com/aaromal.satheesh/"><FaInstagram className='text-gray-500 text-2xl md:text-4xl font-bold' /></a>
+              <a href="https://www.linkedin.com/in/aromal-satheesh/"><CiLinkedin className='text-gray-500 text-2xl md:text-4xl font-bold'/></a>
+              <a href="https://github.com/Aromalsathees"><FaGithub className='text-gray-500 text-2xl md:text-4xl font-bold'/></a>
              </div> 
 
           </div>
 
 
-
-
         <div className='flex flex-col gap-10 md:flex-row md:gap-48 text-gray-500 mt-5'>
             <ul className='flex flex-col gap-2 md:gap-5 font-medium md:font-normal'>
                 <li className='text-white font-bold text-sm font-sans' >QUICK LINKS</li>
-                <li>Blog</li>
-                <li>Roadmaps</li>
-                <li>Community</li>
+                <li className="flex items-center cursor-pointer select-none hover:text-white transition-colors duration-300">
+                    <FaAngleRight className="text-sm mt-1 " />
+                    <span>Blog</span>
+                </li>
+                   <li className="flex items-center cursor-pointer select-none hover:text-white transition-colors duration-300">
+                    <FaAngleRight className="text-sm mt-1 " />
+                    <span>Roadmaps</span>
+                </li>
+                   <li className="flex items-center cursor-pointer select-none hover:text-white transition-colors duration-300">
+                    <FaAngleRight className="text-sm mt-1 " />
+                    <span>Community</span>
+                </li>
             </ul>
             <ul className='flex flex-col gap-2 md:gap-5 font-medium md:font-normal'>
-                <li className='text-white font-bold text-sm font-sans'>QUICK LINKS</li>
-                <li>Blog</li>
-                <li>Roadmaps</li>
-                <li>Community</li>
+                <li className='text-white font-bold text-sm font-sans' >QUICK LINKS</li>
+                <li className="flex items-center cursor-pointer select-none hover:text-white transition-colors duration-300">
+                    <FaAngleRight className="text-sm mt-1 " />
+                    <span>About</span>
+                </li>
+                   <li className="flex items-center cursor-pointer select-none hover:text-white transition-colors duration-300">
+                    <FaAngleRight className="text-sm mt-1 " />
+                    <span>contact</span>
+                </li>
+                   <li className="flex items-center cursor-pointer select-none hover:text-white transition-colors duration-300">
+                    <FaAngleRight className="text-sm mt-1 " />
+                    <span>carrer</span>
+                </li>
             </ul>
             <ul className='flex flex-col gap-2 md:gap-5 font-medium md:font-normal'>
-                <li className='text-white font-bold text-sm font-sans'>QUICK LINKS</li>
-                <li>Blog</li>
-                <li>Roadmaps</li>
-                <li>Community</li>
+                <li className='text-white font-bold text-sm font-sans' >QUICK LINKS</li>
+                <li className="flex items-center cursor-pointer select-none hover:text-white transition-colors duration-300">
+                    <FaAngleRight className="text-sm mt-1 " />
+                    <span>Privacy policy</span>
+                </li>
+                   <li className="flex items-center cursor-pointer select-none hover:text-white transition-colors duration-300">
+                    <FaAngleRight className="text-sm mt-1 " />
+                    <span>Terms of Service</span>
+                </li>
+                   <li className="flex items-center cursor-pointer select-none hover:text-white transition-colors duration-300">
+                    <FaAngleRight className="text-sm mt-1 " />
+                    <span>Cookie policy</span>
+                </li>
             </ul>
         </div>
      </div>
