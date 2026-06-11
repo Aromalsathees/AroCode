@@ -12,16 +12,17 @@ const skills = [
     title: "Backend Development",
     description:
       "Building scalable web applications using Python, Django, Flask, and FastAPI.",
-    tech: "Python • Django",
-    icon: <FaPython className="text-4xl text-yellow-200 my-6" />,
+    tech: "Python • python",
+    icon: <FaPython className="text-2xl md:text-4xl text-yellow-200 my-6" />,
     span: "md:col-span-2",
   },
   {
     title: "REST API Development",
     description:
       "Creating secure and efficient APIs with Django REST Framework, FastAPI, and PostgreSQL.",
-    tech: "DRF • FastAPI",
-    icon: <LuBrain className="text-4xl text-violet-500 my-6" />,
+    tech: "DRF • Django",
+    icon: <SiDjango className="text-2xl md:text-4xl text-green-500 my-6" />,
+    
      
   },
   {
@@ -29,7 +30,7 @@ const skills = [
     description:
       "Developing responsive applications using React.js, JavaScript, Django, and REST APIs.",
     tech: "React • Django",
-    icon: <SiDjango className="text-4xl text-green-500 my-6" />,
+    icon: <LuBrain className="text-2xl md:text-4xl text-violet-500 my-6" />,
   },
   {
     title: "DevOps & Cloud",
@@ -49,16 +50,16 @@ const Skills = () => {
     >
       <div className="mx-auto">
         <div className="flex flex-col justify-center text-center font-bold">
-          <h1 className="text-blue-950 text-xl">TECHNICAL SKILLS</h1>
+          <h1 className="text-white text-xl italic">TECHNICAL SKILLS</h1>
 
           <h1 className="flex flex-col md:flex-row justify-center items-center text-xl md:text-4xl gap-2">
-            <span className="text-white">
-              Technologies & Skills I Work With
-            </span>
+            {/* <span className="text-white">
+              Technologies I Work With
+            </span> */}
           </h1>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-10 p-2">
           {skills.map((skill, index) => (
             <div
               key={index}
