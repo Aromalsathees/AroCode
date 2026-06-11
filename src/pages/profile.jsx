@@ -17,8 +17,8 @@ const Profile = () => {
                       <span className="block text-blue-950"> aromal .</span>
                     </h1>
                     <div className="flex flex-col gap-3 mt-5 text-gray-500">
-                       <p>I'm a Senior Software Engineer who genuinely can't stop learning — new frameworks, new tools, new ways of thinking about problems</p>
-                       <p>That's why I built CodeWithJoe — real skills, real code, taught by someone actively in the trenches every day.</p>
+                       <p>I'm a python full-stack Developer who genuinely can't stop learning — new frameworks, new tools, new ways of thinking about problems</p>
+                       <p>That's why I help students and aspiring developers gain practical skills through real projects, hands-on coding, and problem-solving.</p>
                     </div>
                     <div className="flex items-center gap-2 bg-blue-950 w-fit px-2 py-2 rounded-lg cursor-pointer mt-8 ">
                        <button>More about me</button>
