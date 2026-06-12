@@ -18,7 +18,7 @@ const Header = () => {
           {/* Logo */}
           <h1 className="text-2xl md:text-4xl font-bold">
             <span className="text-white italic">Aro</span>
-            <span className="text-blue-800 italic">Code</span>
+            <span className="text-blue-950 italic">Code</span>
           </h1>
 
           {/* Burger Icon */}
