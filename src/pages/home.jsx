@@ -11,7 +11,7 @@ const Home = () => {
   {/* Mobile View - Unchanged */}
   <div
     id="home"
-    className="md:hidden w-full min-h-screen text-white px-6 relative bg-contain bg-center bg-no-repeat"
+    className="md:hidden w-full min-h-screen text-white px-6 relative bg-contain bg-center bg-no-repeat bg-slate-950"
     style={{ backgroundImage: `url(${profile})` }}
   >
     <div className="max-w-6xl min-h-screen mx-auto flex flex-col justify-center items-center gap-8">
