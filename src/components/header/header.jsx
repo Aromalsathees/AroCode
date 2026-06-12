@@ -9,7 +9,7 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full fixed  p-6 top-0 left-0 z-50 bg-transparent">
+    <nav className="w-full fixed min-h-screen p-6 top-0  left-0 z-50 bg-transparent">
       <div className="max-w-7xl mx-auto text-white">
 
         {/* Top Bar */}
@@ -18,7 +18,7 @@ const Header = () => {
           {/* Logo */}
           <h1 className="text-2xl md:text-4xl font-bold">
             <span className="text-white italic">Aro</span>
-            <span className="text-blue-300 italic">Code</span>
+            <span className="text-blue-800 italic">Code</span>
           </h1>
 
           {/* Burger Icon */}
@@ -34,30 +34,30 @@ const Header = () => {
 
             <li className="hover:bg-gray-700 rounded-2xl p-3 cursor-pointer transition-all duration-300 flex items-center gap-2">
               <FaHome />
-              <a href="#home">Home</a>
+              <a className="text-sm" href="#home">Home</a>
             </li>
 
             <li className="hover:bg-gray-700 rounded-2xl p-3 cursor-pointer transition-all duration-300 flex items-center gap-2">
               <GiEgyptianProfile />
-              <a href="#about">About</a>
+              <a className="text-sm"  href="#about">About</a>
             </li>
 
             <li className="hover:bg-gray-700 rounded-2xl p-3 cursor-pointer transition-all duration-300 flex items-center gap-2">
               <GiSkills />
-              <a href="#skills">Skills</a>
+              <a className="text-sm"  href="#skills">Skills</a>
             </li>
 
             <li className="hover:bg-gray-700 rounded-2xl p-3 cursor-pointer transition-all duration-300 flex items-center gap-2">
               <MdOutlineConnectWithoutContact />
-              <a href="#contact">Contact</a>
+              <a className="text-sm"  href="#contact">Contact</a>
             </li>
 
             <li>
               <div className="relative">
                 <input
-                  className="rounded-full border border-gray-500 bg-transparent py-2 pl-4 pr-10 outline-none focus:border-blue-400"
+                  className="text-sm rounded-full border border-gray-500 bg-transparent py-1 pl-2 pr-5 outline-none focus:border-blue-400"
                   type="text"
-                  placeholder="Search..."
+                  placeholder="search..."
                 />
 
                 <CiSearch className="absolute right-3 top-1/2 -translate-y-1/2 text-xl text-gray-400" />

@@ -27,45 +27,45 @@ const Footer = () => {
         <div className='flex flex-col gap-10 md:flex-row md:gap-48 text-gray-500 mt-5'>
             <ul className='flex flex-col gap-2 md:gap-5 font-medium md:font-normal'>
                 <li className='text-white font-bold text-sm font-sans' >QUICK LINKS</li>
-                <li className="flex items-center gap-2 cursor-pointer select-none hover:text-white active:text-blue-400 active:opacity-70 active:scale-95 transition-all duration-300">
+                <li className="flex items-center gap-2 cursor-pointer select-none hover:text-white active:text-white active:opacity-70 active:scale-95 transition-all duration-300">
                     <FaAngleRight className="text-sm mt-1 " />
                     <span>Blog</span>
                 </li>
-                   <li className="flex items-center gap-2 cursor-pointer select-none hover:text-white active:text-blue-400 active:opacity-70 active:scale-95 transition-all duration-300">
+                   <li className="flex items-center gap-2 cursor-pointer select-none hover:text-white active:text-white active:opacity-70 active:scale-95 transition-all duration-300">
                     <FaAngleRight className="text-sm mt-1 " />
                     <span>Roadmaps</span>
                 </li>
-                   <li className="flex items-center gap-2 cursor-pointer select-none hover:text-white active:text-blue-400 active:opacity-70 active:scale-95 transition-all duration-300">
+                   <li className="flex items-center gap-2 cursor-pointer select-none hover:text-white active:text-white active:opacity-70 active:scale-95 transition-all duration-300">
                     <FaAngleRight className="text-sm mt-1 " />
                     <span>Community</span>
                 </li>
             </ul>
             <ul className='flex flex-col gap-2 md:gap-5 font-medium md:font-normal'>
                 <li className='text-white font-bold text-sm font-sans' >QUICK LINKS</li>
-                <li className="flex items-center gap-2 cursor-pointer select-none hover:text-white active:text-blue-400 active:opacity-70 active:scale-95 transition-all duration-300">
+                <li className="flex items-center gap-2 cursor-pointer select-none hover:text-white active:text-white active:opacity-70 active:scale-95 transition-all duration-300">
                     <FaAngleRight className="text-sm mt-1 " />
                     <span>About</span>
                 </li>
-                   <li className="flex items-center gap-2 cursor-pointer select-none hover:text-white active:text-blue-400 active:opacity-70 active:scale-95 transition-all duration-300">
+                   <li className="flex items-center gap-2 cursor-pointer select-none hover:text-white active:text-white active:opacity-70 active:scale-95 transition-all duration-300">
                     <FaAngleRight className="text-sm mt-1 " />
                     <span>contact</span>
                 </li>
-                   <li className="flex items-center gap-2 cursor-pointer select-none hover:text-white active:text-blue-400 active:opacity-70 active:scale-95 transition-all duration-300">
+                   <li className="flex items-center gap-2 cursor-pointer select-none hover:text-white active:text-white active:opacity-70 active:scale-95 transition-all duration-300">
                     <FaAngleRight className="text-sm mt-1 " />
                     <span>carrer</span>
                 </li>
             </ul>
             <ul className='flex flex-col gap-2 md:gap-5 font-medium md:font-normal'>
                 <li className='text-white font-bold text-sm font-sans' >QUICK LINKS</li>
-                <li className="flex items-center gap-2 cursor-pointer select-none hover:text-white active:text-blue-400 active:opacity-70 active:scale-95 transition-all duration-300">
+                <li className="flex items-center gap-2 cursor-pointer select-none hover:text-white active:text-white active:opacity-70 active:scale-95 transition-all duration-300">
                     <FaAngleRight className="text-sm mt-1 " />
                     <span>Privacy policy</span>
                 </li>
-                   <li className="flex items-center gap-2 cursor-pointer select-none hover:text-white active:text-blue-400 active:opacity-70 active:scale-95 transition-all duration-300">
+                   <li className="flex items-center gap-2 cursor-pointer select-none hover:text-white active:text-white active:opacity-70 active:scale-95 transition-all duration-300">
                     <FaAngleRight className="text-sm mt-1 " />
                     <span>Terms of Service</span>
                 </li>
-                   <li className="flex items-center gap-2 cursor-pointer select-none hover:text-white active:text-blue-400 active:opacity-70 active:scale-95 transition-all duration-300">
+                   <li className="flex items-center gap-2 cursor-pointer select-none hover:text-white active:text-white active:opacity-70 active:scale-95 transition-all duration-300">
                     <FaAngleRight className="text-sm mt-1 " />
                     <span>Cookie policy</span>
                 </li>
