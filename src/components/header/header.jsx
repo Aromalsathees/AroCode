@@ -9,7 +9,7 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full fixed min-h-screen p-6 top-0  left-0 z-50 bg-transparent">
+    <nav className="w-full fixed min-h-screen p-6 top-0 left-0 z-10 bg-transparent">
       <div className="max-w-7xl mx-auto text-white">
 
         {/* Top Bar */}
