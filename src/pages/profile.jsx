@@ -7,7 +7,7 @@ const Profile = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div id="about" className="w-full min-h-screen bg-slate-950 relative z-10">
+    <div id="about" className="w-full min-h-screen md:mx-auto md:pt-15 pt-5 bg-slate-950 relative z-10">
 
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-center items-center md:gap-10 gap-7 text-white pt-20 px-4">
 

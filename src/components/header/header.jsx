@@ -9,17 +9,17 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full fixed min-h-screen p-6 top-0 left-0 z-10 bg-transparent">
+    <nav className="w-full fixed  p-6 top-0 left-0 z-10 bg-transparent">
       <div className="max-w-7xl mx-auto text-white">
 
         {/* Top Bar */}
         <div className="flex justify-between items-center">
 
           {/* Logo */}
-          <h1 className="text-2xl md:text-4xl font-bold">
+          <a href="#home"><h1 className="text-2xl md:text-4xl font-extrabold">
             <span className="text-white italic">Aro</span>
             <span className="text-blue-950 italic">Code</span>
-          </h1>
+          </h1></a>
 
           {/* Burger Icon */}
           <button

@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="md:flex justify-between mx-auto ">
 
          <div className='flex flex-col gap-7 font-medium md:font-normal'>
-            <h1><span className='text-white text-2xl md:text-4xl font-bold italic'>Aro</span><span className='text-blue-950 text-2xl md:text-4xl font-bold italic'>Code</span></h1>
+            <h1><span className='text-white text-2xl md:text-4xl font-extrabold italic'>Aro</span><span className='text-blue-950 text-2xl md:text-4xl font-extrabold italic'>Code</span></h1>
             <h1 className='text-gray-500 font-medium md:font-normal'>Practical programming education for developers who build things that actually ship.</h1>
 
              <div className="flex gap-2 mt-2 md:gap-5">
@@ -25,7 +25,7 @@ const Footer = () => {
 
 
         <div className='flex flex-col gap-10 md:flex-row md:gap-48 text-gray-500 mt-5'>
-            <ul className='flex flex-col gap-2 md:gap-5 font-medium md:font-normal'>
+            <ul className='flex flex-col gap-5 font-medium md:font-normal'>
                 <li className='text-white font-bold text-sm font-sans' >QUICK LINKS</li>
                 <li className="flex items-center gap-2 cursor-pointer text-gray-400 hover:text-white active:text-white transition-colors duration-300">
   <FaAngleRight className="text-sm mt-1" />
@@ -40,7 +40,7 @@ const Footer = () => {
                     <span>Community</span>
                 </li>
             </ul>
-            <ul className='flex flex-col gap-2 md:gap-5 font-medium md:font-normal'>
+            <ul className='flex flex-col gap-5 font-medium md:font-normal'>
                 <li className='text-white font-bold text-sm font-sans' >QUICK LINKS</li>
                 <li className="flex items-center gap-2 cursor-pointer select-none hover:text-white active:text-white active:opacity-70 active:scale-95 transition-all duration-300">
                     <FaAngleRight className="text-sm mt-1 " />
@@ -55,7 +55,7 @@ const Footer = () => {
                     <span>carrer</span>
                 </li>
             </ul>
-            <ul className='flex flex-col gap-2 md:gap-5 font-medium md:font-normal'>
+            <ul className='flex flex-col gap-5 font-medium md:font-normal'>
                 <li className='text-white font-bold text-sm font-sans' >QUICK LINKS</li>
                 <li className="flex items-center gap-2 cursor-pointer select-none hover:text-white active:text-white active:opacity-70 active:scale-95 transition-all duration-300">
                     <FaAngleRight className="text-sm mt-1 " />

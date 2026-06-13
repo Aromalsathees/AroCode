@@ -9,7 +9,7 @@ const skills = [
     title: "Backend Development",
     description:
       "Building scalable web applications using Django, Flask, and FastAPI.",
-    tech: "Python • FastAPI",
+    tech: "Python • python",
     icon: <FaPython size={30} className="text-yellow-200 " />,
     span: "md:col-span-2",
   },
