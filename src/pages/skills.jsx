@@ -85,7 +85,7 @@ const Skills = () => {
                 </div>
 
                 {/* Bottom */}
-                <div className="flex items-center gap-2 text-blue-500 pt-4">
+                <div className="flex items-center gap-2 text-green-500 pt-4">
                   <a href="/">Explore</a>
                   <FaArrowRight />
                 </div>
